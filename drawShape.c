@@ -63,9 +63,9 @@ int main(){
         printf("oke ini persegi panjang\n");
         persegi_panjang();
     }
-    else  //error handling kalo input bukan 1 atau 2
+    else  //error handling kalo input bukan 1-4
     {
-        printf("cuma bisa satu ma dua wok.\n");
+        printf("cuma bisa satu sampai 4 (1-4) lainnya gabisa wok.\n");
     }
     return 0;  //program selesai
 }

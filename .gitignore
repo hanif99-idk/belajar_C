@@ -1,0 +1,14 @@
+# Abaikan semua file hasil compile yang berakhiran .exe
+*.exe
+
+# Abaikan jika ada file aplikasi bawaan Windows
+Thumbs.db
+
+# Abaikan folder konfigurasi VS Code
+.vscode/
+
+# Abaikan semua file objek hasil compile bahasa C
+*.o
+
+# Abaikan file konfigurasi lingkungan (environment variables / rahasia)
+.env

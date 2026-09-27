@@ -1,38 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 //gambar segitiga
-int gambar_segitiga(void){
+void segitiga(void){
     printf("    /|\n");
     printf("   / |\n");
     printf("  /  |\n");
     printf(" /___|\n");
-    return 0;
 }
 
 //gambar persegi
-int Persegi(void){
+void Persegi(void){
     printf("______\n");
     printf("|    |\n");
     printf("|    |\n");
     printf("|____|\n");
-    return 0;
 }
 //gambar lingkaran
-int lingkaran(void){
+void lingkaran(void){
     printf("   ***   \n");
     printf(" *     * \n");
     printf("*       *\n");
     printf(" *     * \n");
     printf("   ***   \n");
-    return 0;
 }
 //gambar persegi panjang
-int persegi_panjang(void){
+void persegi_panjang(void){
     printf("__________\n");
     printf("|        |\n");
     printf("|        |\n");
     printf("|________|\n");
-    return 0;
 }
 //pilihan mau gambar apa di main
 int main(){
@@ -46,7 +42,7 @@ int main(){
     if (pilihan == 1)  // ya logic nya sama kek piton beda sintaks aja
     {
         printf("oke ini segitiga\n");
-        gambar_segitiga();
+        segitiga();
     }
     else if (pilihan == 2)  //pake else if bukan elif 
     {
